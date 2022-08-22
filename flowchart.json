@@ -1,0 +1,568 @@
+const flowChart = [
+  {
+    type: 'standard.Rectangle',
+    position: { x: 395, y: 354.482421875 },
+    size: { width: 100, height: 55.6650390625 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: 'b887e49d-c0f0-4785-9e07-ad012562e52e' },
+        { group: 'in', id: 'f2bba25e-6e12-4f29-9fde-f629d19564e9' },
+        { group: 'in', id: '79fed239-d278-4f31-b821-c82d28a39e79' },
+        { group: 'in', id: '670181aa-bdcb-4cc2-8ad7-4a94c9857875' },
+      ],
+    },
+    id: 'e715e13a-fb4e-467e-b62f-2d99661d1472',
+    z: 1,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: '#E6E6E6',
+        fill: '#FAC710',
+        strokeDasharray: '0,0',
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        fill: '#1A1A1A',
+        text: 'Action',
+        fontFamily: 'Arial',
+        fontStyle: 'normal',
+        class: 'xyz',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 210, y: 356.81103515625 },
+    size: { width: 90, height: 51.0078125 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '6c296a2f-77d7-42e6-ac6d-7c6dbed23bec' },
+        { group: 'in', id: '08318fb6-a03f-4026-81bc-cd5f9214d9b7' },
+        { group: 'in', id: 'c5e5567d-b15e-4f00-9c76-7b8f341b9ca0' },
+        { group: 'in', id: '36332ccf-abba-4c04-9753-ab3adbebb982' },
+      ],
+    },
+    id: '20ec5f55-e9f7-4554-b360-16e2566c79c7',
+    z: 15,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#1A1A1A',
+        strokeOpacity: 10,
+        rx: 15,
+        ry: 15,
+      },
+      label: {
+        fontSize: 12,
+        fill: '#E6E6E6',
+        text: 'Start',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: '20ec5f55-e9f7-4554-b360-16e2566c79c7',
+      magnet: 'portBody',
+      port: '08318fb6-a03f-4026-81bc-cd5f9214d9b7',
+    },
+    target: { id: 'e715e13a-fb4e-467e-b62f-2d99661d1472' },
+    labels: [],
+    id: 'a0778314-314e-48db-96b1-36abd04d06a5',
+    z: 17,
+    ports: {
+      groups: {
+        in: {
+          attrs: { portBody: { fillOpacity: 0, r: 0 } },
+          position: { args: { dr: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+  {
+    type: 'standard.Polygon',
+    position: { x: 590, y: 342.85302734375 },
+    size: { width: 103.923828125, height: 78.923828125 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '38a8f40a-f62c-4101-b771-a06fd379307f' },
+        { group: 'in', id: 'fc3ee8c8-ae5b-4695-9835-497d674c8ecf' },
+        { group: 'in', id: 'a43f9135-e25a-489c-b1f8-31c7095e4d19' },
+        { group: 'in', id: '7176672f-db4b-4951-b251-312313875b7d' },
+      ],
+    },
+    id: '0b7b162a-19b0-4350-8dd6-56c48ffb19ef',
+    z: 18,
+    attrs: {
+      body: {
+        refPoints: '300,150 225,280 75,280 0,150 75,20 225,20',
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#F24726',
+        strokeOpacity: 10,
+      },
+      label: { fill: '#E6E6E6', text: 'Decision' },
+      root: { tabindex: 5, title: 'joint.shapes.standard.Polygon' },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 880, y: 240 },
+    size: { width: 110, height: 45 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+        out: {
+          position: {
+            name: 'ellipseSpread',
+            args: { startAngle: 0, compensateRotation: false },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 4, fill: 'red', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '33819697-a31b-4935-aec6-3d442ac9ed83' },
+        { group: 'in', id: 'c7236b96-91ad-4d24-bd12-dad21f76ebb4' },
+        { group: 'in', id: '85ebb89e-fdac-4910-9e63-63267317f5ca' },
+        { group: 'in', id: 'a69b114f-3b7a-4933-89f3-b196fe8bdd37' },
+      ],
+    },
+    id: '2f052986-c452-4ef7-b1e3-5a1f0e9d9a8d',
+    z: 19,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#ebc4ee',
+        strokeDasharray: '0,0',
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Square',
+        fontFamily: 'Arial',
+        fontStyle: 'normal',
+        class: 'xyz',
+        annotations: '',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 880, y: 481.25 },
+    size: { width: 110, height: 45 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+        out: {
+          position: {
+            name: 'ellipseSpread',
+            args: { startAngle: 0, compensateRotation: false },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 4, fill: 'red', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '33819697-a31b-4935-aec6-3d442ac9ed83' },
+        { group: 'in', id: 'c7236b96-91ad-4d24-bd12-dad21f76ebb4' },
+        { group: 'in', id: '85ebb89e-fdac-4910-9e63-63267317f5ca' },
+        { group: 'in', id: 'a69b114f-3b7a-4933-89f3-b196fe8bdd37' },
+      ],
+    },
+    id: '6aa8e05e-ebe8-4bbb-a8d8-a682837ce1ac',
+    z: 21,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#ebc4ee',
+        strokeDasharray: '0,0',
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Square',
+        fontFamily: 'Arial',
+        fontStyle: 'normal',
+        class: 'xyz',
+        annotations: '',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 1060, y: 241.25 },
+    size: { width: 90, height: 42.5 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '6c296a2f-77d7-42e6-ac6d-7c6dbed23bec' },
+        { group: 'in', id: '08318fb6-a03f-4026-81bc-cd5f9214d9b7' },
+        { group: 'in', id: 'c5e5567d-b15e-4f00-9c76-7b8f341b9ca0' },
+        { group: 'in', id: '36332ccf-abba-4c04-9753-ab3adbebb982' },
+      ],
+    },
+    id: 'd8b59a2c-5e7d-47c2-9222-b852b05a7ee1',
+    z: 22,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#1A1A1A',
+        strokeOpacity: 10,
+        rx: 15,
+        ry: 15,
+      },
+      label: {
+        fontSize: 12,
+        fill: '#E6E6E6',
+        text: 'Result 1',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: 'e715e13a-fb4e-467e-b62f-2d99661d1472',
+      magnet: 'portBody',
+      port: 'f2bba25e-6e12-4f29-9fde-f629d19564e9',
+    },
+    target: { id: '0b7b162a-19b0-4350-8dd6-56c48ffb19ef' },
+    id: '18dd835c-e309-4bd6-a15d-f062e94b9601',
+    z: 23,
+    ports: {
+      groups: {
+        in: {
+          attrs: { portBody: { fillOpacity: 0, r: 0 } },
+          position: { args: { dr: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '0b7b162a-19b0-4350-8dd6-56c48ffb19ef',
+      magnet: 'portBody',
+      port: 'a43f9135-e25a-489c-b1f8-31c7095e4d19',
+    },
+    target: { id: '6aa8e05e-ebe8-4bbb-a8d8-a682837ce1ac' },
+    id: '756db178-dc31-4a22-aa45-32ba8c690f65',
+    z: 25,
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '0b7b162a-19b0-4350-8dd6-56c48ffb19ef',
+      magnet: 'portBody',
+      port: '38a8f40a-f62c-4101-b771-a06fd379307f',
+    },
+    target: { id: '2f052986-c452-4ef7-b1e3-5a1f0e9d9a8d' },
+    id: 'bffe11cd-48e7-4d6b-bc38-f67bb5c3951c',
+    z: 26,
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 1060, y: 482.5 },
+    size: { width: 90, height: 42.5 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 0,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 0, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '6c296a2f-77d7-42e6-ac6d-7c6dbed23bec' },
+        { group: 'in', id: '08318fb6-a03f-4026-81bc-cd5f9214d9b7' },
+        { group: 'in', id: 'c5e5567d-b15e-4f00-9c76-7b8f341b9ca0' },
+        { group: 'in', id: '36332ccf-abba-4c04-9753-ab3adbebb982' },
+      ],
+    },
+    id: '89f1ab7a-100e-4d34-977a-56c291fddab5',
+    z: 28,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: 'black',
+        fill: '#1A1A1A',
+        strokeOpacity: 10,
+        rx: 15,
+        ry: 15,
+      },
+      label: {
+        fontSize: 12,
+        fill: '#E6E6E6',
+        text: 'Result 1',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: '6aa8e05e-ebe8-4bbb-a8d8-a682837ce1ac',
+      magnet: 'portBody',
+      port: 'c7236b96-91ad-4d24-bd12-dad21f76ebb4',
+    },
+    target: { id: '89f1ab7a-100e-4d34-977a-56c291fddab5' },
+    id: '47eb5696-266e-4a01-beb0-cba12bdbd40c',
+    z: 29,
+    ports: {
+      groups: {
+        in: {
+          attrs: { portBody: { fillOpacity: 0, r: 0 } },
+          position: { args: { dr: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: '2f052986-c452-4ef7-b1e3-5a1f0e9d9a8d',
+      magnet: 'portBody',
+      port: 'c7236b96-91ad-4d24-bd12-dad21f76ebb4',
+    },
+    target: { id: 'd8b59a2c-5e7d-47c2-9222-b852b05a7ee1' },
+    id: '74911e1f-1aa9-485a-96f2-249e5207da91',
+    z: 30,
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    attrs: {},
+  },
+];
+
+module.exports = JSON.stringify(flowChart);
