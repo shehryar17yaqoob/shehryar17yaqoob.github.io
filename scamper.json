@@ -1,0 +1,1976 @@
+const scamper = [
+  {
+    type: 'standard.Rectangle',
+    position: { x: -269.5495743156562, y: 128.7109243697479 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'b08ef444-28d4-4f37-a13b-156acf3ed4e0',
+    z: 30,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -98.76543209876536, y: 250.8235294117647 },
+    size: { width: 68.35390946502058, height: 25.048739495798316 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '50106cce-fb0f-4db3-8d9d-d370b9455e14' },
+        { group: 'in', id: 'ff96fce3-42f5-49ae-a99b-ff2f960d2209' },
+        { group: 'in', id: 'f1d9112e-39a0-4173-9573-7867fc8bd3bf' },
+        { group: 'in', id: '69b972b9-c44a-4036-a993-44cb12f55833' },
+      ],
+    },
+    id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+    z: 41,
+    attrs: {
+      body: { stroke: 'transparent', fill: 'transparent' },
+      label: {
+        fontSize: '12',
+        text: 'Subject',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -319.2615084720348, y: 128.7109243697479 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'e0fa2615-7464-493d-857c-d313bdad74c1',
+    z: 55,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -219.8376401592776, y: 128.7109243697479 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'ae37c3e6-c403-448b-91ac-ef21fce1adc4',
+    z: 56,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -219.8376401592776, y: 78.61344537815125 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '167d5240-d973-43c0-a361-491787116010',
+    z: 57,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -269.5495743156562, y: 78.61344537815125 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'c5190a47-46b8-4962-84a6-167ae02f3d49',
+    z: 58,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -319.2615084720348, y: 78.61344537815125 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '512ee3a8-dd69-49ff-9792-f6064a6aeff2',
+    z: 59,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#A6CCF5',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 118.62364838973028, y: 65 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '960fda35-7a1e-4c21-8a6c-80df6b2878fd',
+    z: 60,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -425, y: 244.56134453781502 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '1764b1e4-e0d5-493a-aa1d-d724d552ccb7',
+    z: 61,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#CEE741',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 118.72427983539089, y: 369.8050420168067 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'd0efe7bb-23a6-43f0-b3a7-e0a5a333ec57',
+    z: 63,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -120.51440329218102, y: 419.9025210084034 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'bc13fed3-b552-44d8-b997-ca4581db1710',
+    z: 64,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#afd9d2',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -372.1810699588478, y: 244.56134453781502 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '154712a0-b4e4-4b53-9679-52b249da58f1',
+    z: 65,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#CEE741',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -322.46913580246917, y: 382.32941176470587 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '857c900a-5796-4432-bff1-6fad80bbb695',
+    z: 69,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -275.86419753086415, y: 382.32941176470587 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '42bdc69e-47c1-4068-89ef-5e5d71ae9f3c',
+    z: 72,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -226.15226337448556, y: 382.32941176470587 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '61c150a8-9f42-4380-a783-bed4f8fc09be',
+    z: 73,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -322.46913580246917, y: 432.42689075630256 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'a9af6dd2-3733-44ca-a82a-86df1de783f4',
+    z: 74,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -275.86419753086415, y: 432.42689075630256 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '177a3435-0da8-4f01-b5a8-b22e7be104bf',
+    z: 75,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -226.15226337448556, y: 432.42689075630256 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '212f44fe-9a50-4659-9d84-4dbee2a34ed1',
+    z: 76,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#e5c7d6',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 168.3355825461088, y: 65 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '0ef6998f-864f-493d-94bd-7d24010576ba',
+    z: 77,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 218.04751670248754, y: 65 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '97bdc323-0365-4017-9c8f-8df4650d3fef',
+    z: 78,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 118.62364838973028, y: 115.09747899159665 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '104ca0d9-991c-4a49-9aec-c4be916dd8a2',
+    z: 79,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 168.3355825461088, y: 115.09747899159665 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'e037c774-3509-4d82-89bd-b71acb253219',
+    z: 80,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 218.04751670248754, y: 115.09747899159665 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'ef466cbd-630c-4860-9460-23e67e7b13f9',
+    z: 81,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#FAC710',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 168.43621399176953, y: 369.8050420168067 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '3fbaa975-9750-4a8b-95a4-23915791634b',
+    z: 82,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 218.14814814814815, y: 369.8050420168067 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'f0ff939a-7240-40e8-b0d4-1b68612e912f',
+    z: 83,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 118.72427983539089, y: 419.9025210084034 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'be30c2c4-c1d3-450a-af1b-1a361de73c20',
+    z: 84,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 168.43621399176953, y: 419.9025210084034 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '8097925f-0bef-403a-8c5f-0ad9b5697e20',
+    z: 85,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 218.14814814814815, y: 419.9025210084034 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '993370af-c505-4727-bcf1-d81ccf3e139d',
+    z: 86,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#DA0063',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: -77.1170923510104, y: 419.9025210084034 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '75381bf1-8762-4544-94e7-a5b080ba2e5a',
+    z: 87,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#afd9d2',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 205.61953316339276, y: 244.5613445378151 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'a7b9cd17-7c02-4ace-9000-206b865c274a',
+    z: 89,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#f07f42',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 255.3314673197715, y: 244.5613445378151 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: '3c191033-b3a4-4b6f-a42e-1c9d46b930c9',
+    z: 91,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#f07f42',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'normal' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: '69b972b9-c44a-4036-a993-44cb12f55833',
+    },
+    target: { id: '154712a0-b4e4-4b53-9679-52b249da58f1' },
+    labels: [],
+    id: '0381eb9e-7e90-4d82-bbb0-2acdb8a14c6b',
+    z: 96,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {
+      line: {
+        sourceMarker: { display: 'none' },
+        targetMarker: { display: 'show' },
+      },
+    },
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: 'ff96fce3-42f5-49ae-a99b-ff2f960d2209',
+    },
+    target: { id: 'a7b9cd17-7c02-4ace-9000-206b865c274a' },
+    labels: [],
+    id: 'f5c9c27e-dc0d-4c23-8388-37449c6478cf',
+    z: 99,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: 'ff96fce3-42f5-49ae-a99b-ff2f960d2209',
+    },
+    target: { id: '3fbaa975-9750-4a8b-95a4-23915791634b' },
+    labels: [],
+    id: '9e2ee2de-5148-4ed9-8cdd-4c9d97c981aa',
+    z: 100,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'rounded' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: 'f1d9112e-39a0-4173-9573-7867fc8bd3bf',
+    },
+    target: { id: '75381bf1-8762-4544-94e7-a5b080ba2e5a' },
+    labels: [],
+    id: '17a63c47-76ad-44d3-bac1-7b93de72583c',
+    z: 102,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: '69b972b9-c44a-4036-a993-44cb12f55833',
+    },
+    target: { id: '857c900a-5796-4432-bff1-6fad80bbb695' },
+    labels: [],
+    id: 'b13841c2-58bd-45ae-a3fd-227d222d61b0',
+    z: 103,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: 'ff96fce3-42f5-49ae-a99b-ff2f960d2209',
+    },
+    target: { id: 'e037c774-3509-4d82-89bd-b71acb253219' },
+    labels: [],
+    id: '670e328b-9951-4c9d-bece-a8a021bf3d57',
+    z: 104,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'app.Link',
+    router: { name: 'normal' },
+    connector: { name: 'smooth' },
+    source: {
+      id: '7b0a3d1e-089c-4598-8743-398c04449d63',
+      magnet: 'portBody',
+      port: '69b972b9-c44a-4036-a993-44cb12f55833',
+    },
+    target: { id: 'b08ef444-28d4-4f37-a13b-156acf3ed4e0' },
+    labels: [],
+    id: '5e4141e8-e35e-4c5c-9cd9-5787f64ebb5e',
+    z: 105,
+    ports: { groups: { in: { attrs: { portBody: { fillOpacity: 0 } } } } },
+    vertices: [],
+    attrs: {},
+  },
+  {
+    type: 'standard.Rectangle',
+    position: { x: 302.71604938271616, y: 244.5613445378151 },
+    size: { width: 37.283950617283956, height: 37.57310924369747 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          position: {
+            name: 'ellipseSpread',
+            args: {
+              dx: 1,
+              dy: 1,
+              dr: 14,
+              startAngle: 0,
+              compensateRotation: false,
+            },
+          },
+          attrs: {
+            portBody: { magnet: true, r: 5, fill: '#050038', fillOpacity: 0 },
+          },
+          label: {
+            position: { name: 'left', args: { y: 6 } },
+            markup: [
+              { tagName: 'text', selector: 'label', className: 'label-text' },
+            ],
+          },
+          markup: [{ tagName: 'circle', selector: 'portBody' }],
+        },
+      },
+      items: [
+        { group: 'in', id: '928ec39b-5501-4f3a-a9ce-ee0b5d1d52b1' },
+        { group: 'in', id: 'd115f90d-c67f-49d8-b14e-d7cff9328d25' },
+        { group: 'in', id: '4284f3b1-1a66-4a47-a64f-419109840c71' },
+        { group: 'in', id: '42047eaa-4404-4a75-adef-5952356e9914' },
+      ],
+    },
+    id: 'caa48b91-d0cc-4ee2-ad07-4ec9b36f4c09',
+    z: 106,
+    attrs: {
+      body: {
+        stroke: '',
+        fill: '#f07f42',
+        filter: {
+          name: 'dropShadow',
+          args: { dy: 4, blur: 2, color: '#888585' },
+        },
+        strokeOpacity: 10,
+      },
+      label: {
+        fontSize: 12,
+        text: 'Text\nBlock',
+        fontFamily: 'Arial',
+        fontStyle: 'bold',
+      },
+      root: { magnet: true },
+    },
+  },
+];
+
+module.exports = JSON.stringify(scamper);
