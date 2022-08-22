@@ -1,0 +1,638 @@
+const mindMapper = [
+  {
+    type: "standard.Rectangle",
+    position: { x: 160, y: 340 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "ca41d9f1-9741-48cb-887c-5a9491384f19", group: "in" },
+        { id: "67481bd8-5318-4797-a4ba-9d02021c3e99", group: "in" },
+        { id: "153ff494-1eef-408b-8a01-a1cce820f9dd", group: "in" },
+        { id: "daf2b5d5-cba6-414f-8ea9-8ee8b749456b", group: "in" },
+      ],
+    },
+    id: "96c65487-7666-43c9-9f3d-49f08ecfb5d3",
+    z: 11,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 160, y: 390 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "ca41d9f1-9741-48cb-887c-5a9491384f19", group: "in" },
+        { id: "67481bd8-5318-4797-a4ba-9d02021c3e99", group: "in" },
+        { id: "153ff494-1eef-408b-8a01-a1cce820f9dd", group: "in" },
+        { id: "daf2b5d5-cba6-414f-8ea9-8ee8b749456b", group: "in" },
+      ],
+    },
+    id: "385b55eb-1132-4a18-8e0a-d8ab07645a6e",
+    z: 15,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 370, y: 360 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "08c0f35c-387b-44f1-b5df-bcdc60b0ec4a", group: "in" },
+        { id: "71407662-a89f-42e5-a728-4be0fef4802c", group: "in" },
+        { id: "1f1b18ef-ad9e-4484-9d48-27caeb2c98b5", group: "in" },
+        { id: "02ce7ed3-a217-474d-b07a-52f856214d34", group: "in" },
+      ],
+    },
+    id: "15a2bb42-d276-444c-9f59-6820e147d662",
+    z: 17,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "67481bd8-5318-4797-a4ba-9d02021c3e99",
+      id: "96c65487-7666-43c9-9f3d-49f08ecfb5d3",
+      magnet: "portBody",
+    },
+    target: { id: "15a2bb42-d276-444c-9f59-6820e147d662" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "937fca1e-a107-4a38-aad5-851a330c86bf",
+    z: 18,
+    attrs: { line: { stroke: "#cb4343", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "67481bd8-5318-4797-a4ba-9d02021c3e99",
+      id: "385b55eb-1132-4a18-8e0a-d8ab07645a6e",
+      magnet: "portBody",
+    },
+    target: { id: "15a2bb42-d276-444c-9f59-6820e147d662" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "633ddaee-d004-481e-88b0-943ad48b064c",
+    z: 19,
+    attrs: { line: { stroke: "#b94646", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 350, y: 280 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "2a4ac7ef-2443-4963-a0ed-77821a0f1e0c", group: "in" },
+        { id: "bb0d9b1a-bfba-4cd2-98fc-f76b875d7913", group: "in" },
+        { id: "0865ca40-8ca4-456f-b507-13092488ee29", group: "in" },
+        { id: "9052bf2e-3dc6-43d8-9542-2b58a25db011", group: "in" },
+      ],
+    },
+    id: "02231714-8f2a-4fbc-afa7-c6f3ef7a7d88",
+    z: 20,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 550, y: 330 },
+    size: { width: 90, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "7395bb4a-c94d-46f1-8505-3d8b23c6fa0e", group: "in" },
+        { id: "111b5173-40cc-4a5c-844a-d6faddfc28f3", group: "in" },
+        { id: "89687a98-9270-4776-8f3a-2dcaf045add5", group: "in" },
+        { id: "d4011ca5-38d6-4260-9e33-0ec86a0acbe3", group: "in" },
+      ],
+    },
+    id: "3fbd5b53-6fa1-4c85-a3b3-200707939b79",
+    z: 21,
+    attrs: {
+      body: { stroke: "#9510AC", rx: 15, ry: 15, strokeOpacity: 10 },
+      label: {
+        fontSize: 12,
+        fontFamily: "Arial",
+        text: "Problem",
+        fontStyle: "bold",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "71407662-a89f-42e5-a728-4be0fef4802c",
+      id: "15a2bb42-d276-444c-9f59-6820e147d662",
+      magnet: "portBody",
+    },
+    target: { id: "3fbd5b53-6fa1-4c85-a3b3-200707939b79" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "7b953438-cfa0-4177-b9d7-a722fa799bcb",
+    z: 22,
+    attrs: { line: { stroke: "#d65c5c", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "bb0d9b1a-bfba-4cd2-98fc-f76b875d7913",
+      id: "02231714-8f2a-4fbc-afa7-c6f3ef7a7d88",
+      magnet: "portBody",
+    },
+    target: { id: "3fbd5b53-6fa1-4c85-a3b3-200707939b79" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "3ecbf3aa-b0a2-4f67-9f8e-7bbc7c4febac",
+    z: 23,
+    attrs: { line: { stroke: "#cc1414", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 710, y: 280 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "06b8f59c-f507-412a-975a-d5cbce5bb17c", group: "in" },
+        { id: "c6323a35-b1c9-42db-b4ec-9dea1a4a3692", group: "in" },
+        { id: "8be4d27a-1572-4571-bc1d-0a6d7ed0a40d", group: "in" },
+        { id: "f4e170c8-972d-4fc3-8fdc-8028e31ffc83", group: "in" },
+      ],
+    },
+    id: "841cbec4-bf6f-4e6c-b0e2-871fdcbed480",
+    z: 24,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 710, y: 390 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "fdee2ce2-3650-472d-8ffa-d96f893c33fb", group: "in" },
+        { id: "6cb8d12b-11ff-418f-ba4d-21673d979812", group: "in" },
+        { id: "c0dd2dba-8deb-425a-ab0a-32342aee3dd5", group: "in" },
+        { id: "2270ce1b-8bf8-4ef3-a73b-691a4c4d5e41", group: "in" },
+      ],
+    },
+    id: "350def44-469f-4f14-bf54-e804a4a51814",
+    z: 25,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "111b5173-40cc-4a5c-844a-d6faddfc28f3",
+      id: "3fbd5b53-6fa1-4c85-a3b3-200707939b79",
+      magnet: "portBody",
+    },
+    target: { id: "350def44-469f-4f14-bf54-e804a4a51814" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "6f835ca7-fbc5-45aa-a015-abb8936ec5b2",
+    z: 26,
+    attrs: { line: { stroke: "#d016c0", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "111b5173-40cc-4a5c-844a-d6faddfc28f3",
+      id: "3fbd5b53-6fa1-4c85-a3b3-200707939b79",
+      magnet: "portBody",
+    },
+    target: { id: "841cbec4-bf6f-4e6c-b0e2-871fdcbed480" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "20dd06b0-5d1b-4af9-8fdd-3e1151ce639f",
+    z: 27,
+    attrs: { line: { stroke: "#c01189", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 940, y: 249.25 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "ce51516d-15a8-45dc-b7f1-6fe18fe5e60a", group: "in" },
+        { id: "b58265c2-1ab9-4cd3-b7c2-0876b99f9ac6", group: "in" },
+        { id: "9a3bf22d-8485-4392-9d0d-b58db0f0b69e", group: "in" },
+        { id: "a9f60d54-b83e-4583-a0c7-ceced5eaf5f2", group: "in" },
+      ],
+    },
+    id: "aa31aa98-4b03-46fa-9056-eba693328b56",
+    z: 28,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "standard.Rectangle",
+    position: { x: 940, y: 320 },
+    size: { width: 100, height: 50 },
+    angle: 0,
+    ports: {
+      groups: {
+        in: {
+          markup: [{ selector: "portBody", tagName: "circle" }],
+          label: {
+            markup: [
+              { className: "label-text", selector: "label", tagName: "text" },
+            ],
+            position: { args: { y: 6 }, name: "left" },
+          },
+          position: {
+            args: {
+              startAngle: 0,
+              dr: 0,
+              dx: 1,
+              dy: 1,
+              compensateRotation: false,
+            },
+            name: "ellipseSpread",
+          },
+          attrs: {
+            portBody: { r: 0, fillOpacity: 0, fill: "#050038", magnet: true },
+          },
+        },
+      },
+      items: [
+        { id: "194894e8-86b1-4b7f-8d6f-58439ac7686f", group: "in" },
+        { id: "df1d6047-1691-4ac0-84c1-6c357bb99fcf", group: "in" },
+        { id: "1f7f6292-0fd3-4aee-b945-91f2ce03c1eb", group: "in" },
+        { id: "ec575644-7152-485d-bea1-a3e7fbbbeaa6", group: "in" },
+      ],
+    },
+    id: "f6bf8ff8-85c8-43a1-92c7-6a290f36c8f7",
+    z: 29,
+    attrs: {
+      body: { stroke: "transparent", fill: "transparent" },
+      label: {
+        fontSize: "12",
+        fill: "#808080",
+        fontStyle: "bold",
+        text: "Type something",
+        fontFamily: "Arial",
+      },
+      root: { magnet: true },
+    },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "c6323a35-b1c9-42db-b4ec-9dea1a4a3692",
+      id: "841cbec4-bf6f-4e6c-b0e2-871fdcbed480",
+      magnet: "portBody",
+    },
+    target: { id: "aa31aa98-4b03-46fa-9056-eba693328b56" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "9de0e7e7-3100-45a8-8bed-b3f48ca41650",
+    z: 30,
+    attrs: { line: { stroke: "#e93ab2", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+  {
+    type: "app.Link",
+    router: { name: "normal" },
+    connector: { name: "smooth" },
+    source: {
+      port: "c6323a35-b1c9-42db-b4ec-9dea1a4a3692",
+      id: "841cbec4-bf6f-4e6c-b0e2-871fdcbed480",
+      magnet: "portBody",
+    },
+    target: { id: "f6bf8ff8-85c8-43a1-92c7-6a290f36c8f7" },
+    ports: {
+      groups: {
+        in: {
+          position: { args: { dr: 0 } },
+          attrs: { portBody: { r: 0, fillOpacity: 0 } },
+        },
+      },
+    },
+    id: "31d7e24b-b693-416e-90de-63b2ec93e9f9",
+    z: 31,
+    attrs: { line: { stroke: "#c723b2", targetMarker: { d: "M 0 0 0 0" } } },
+  },
+];
+
+module.exports = JSON.stringify(mindMapper);
